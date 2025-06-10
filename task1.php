@@ -8,7 +8,7 @@ class User {
         $this->name = $name;
         $this->email = $email;
     }
-
+ 
     public function getInfo() {
         echo "Name: {$this->name}, Email: {$this->email}\n";
     }
